@@ -11,24 +11,24 @@
  
 ## range的技術(1)
 ```
-list1=range(5)
-list1
+list(range(8))
 
 
 
-答案是:range(0, 5)
+答案是:[0, 1, 2, 3, 4, 5, 6, 7]
 
 ## range的技術(2)
 ```
-list(range(1,6))
- #list2=range(1,6)
+list(range(1,5))
+ #list2=range(1,5)
  #list2
 
 
-答案是:[1, 2, 3, 4, 5]
+答案是:[1, 2, 3, 4]
 
-##range的技術(3)
+## range的技術(3)
 ```
-list3=range(1,6,2)
+list3=range(99,99,99)
 list3
-答案是:
+
+答案是:range(99, 99, 99)
