@@ -19,7 +19,7 @@ list(range(8))
 
 ## range的技術(2)
 ```
-list(range(1,5))
+ list(range(1,5))
  #list2=range(1,5)
  #list2
 
@@ -28,7 +28,7 @@ list(range(1,5))
 
 ## range的技術(3)
 ```
-list3=range(99,99,99)
-list3
+ list3=range(99,99,99)
+ list3
 
-答案是:range(99, 99, 99)
+ 答案是:range(99, 99, 99)
