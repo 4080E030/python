@@ -9,7 +9,7 @@
 ```
 # range的技術
 ``` 
-
+```
 ## range的技術(1)
  ```
 list(range(8))
