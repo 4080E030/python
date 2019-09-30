@@ -11,11 +11,12 @@
  
 ## range的技術(1)
 ```
-list1=range(6)
+list1=range(5)
 list1
 
 
-答案是:[0, 1, 2, 3, 4, 5]
+
+答案是:range(0, 5)
 
 ## range的技術(2)
 ```
