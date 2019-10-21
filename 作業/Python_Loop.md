@@ -7,9 +7,6 @@ for X in range(1,101):
     
 print(sum)
 ```
-
-
-
 # Loop 
 #### 使用For 迴圈(loop)計算1+3+5+7.....+99
 ```
@@ -21,17 +18,18 @@ for X in range(1,101):
 print(sum)
 ```
 
-
-
-
-
-
-
-
-
-# while 
+# while
+### 無限回圈
 ```
 index = 0
 while index < 1:
 	print("Hello, brad")
+```
+
+```
+### 無法執行
+##### 因為不可能index >1
+index = 0 
+while index > 1:
+	print("Hello, 龍聖")
 ```
