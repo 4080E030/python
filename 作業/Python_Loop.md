@@ -36,6 +36,7 @@ while index > 1:
 ```
 
 # while Loop 
+#### 使用while 迴圈(loop)計算1+2+3+.....100
 ```
 i = 0
 while i <= 100:
