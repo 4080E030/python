@@ -27,9 +27,9 @@ while index < 1:
 	print("Hello, brad")
 ```
 
-```
 ### 無法執行
 ##### 因為index不可能 >1
+```
 index = 0 
 while index > 1:
 	print("Hello, 龍聖")
