@@ -19,7 +19,7 @@ for X in range(1,101):
 print(sum)
 ```
 
-#Loop
+# Loop
 #### 使用For 迴圈(loop)計算1*2*3*7.....+99
 ```
 sum=1
@@ -53,8 +53,6 @@ i = 0
 while i <= 100:
     print(i)
     i += 1
- 
-    
 ```
 
 # while 
@@ -64,6 +62,15 @@ i = 0
 while i <= 100:
     print(i+1)
     i += 2
+```
 
-
+# while 
+#### 用while 迴圈(loop)計算1*2*3*7.....+99
+```
+i = 0
+sum=1
+while i < 100:
+    i +=1
+    sum *=i
+print(sum)
 ```
