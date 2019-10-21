@@ -34,3 +34,12 @@ index = 0
 while index > 1:
 	print("Hello, 龍聖")
 ```
+
+# while Loop 
+```
+i = 0
+while i <= 100:
+    print(i+1)
+    i += 1
+    
+```
