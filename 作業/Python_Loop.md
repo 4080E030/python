@@ -1,15 +1,37 @@
-# 使用For 迴圈(loop)計算1+3+5+7.....+99
+# 使用For 迴圈(loop)計算1+2+3+.....100
 ```
-for number in range(1,100,2):
-    print(number)
+sum=0
+
+for X in range(1,101):
+    sum +=X
+    
+print(sum)
 ```
 
 
 
 # Loop 
-#### 使用For 迴圈(loop)計算1+2+3+.....100
+#### 使用For 迴圈(loop)計算1+3+5+7.....+99
 ```
-for index in range(101):
-	print(index)
+sum=0
+
+for X in range(1,101):
+    sum +=X
+    
+print(sum)
 ```
 
+
+
+
+
+
+
+
+
+# while 
+```
+index = 0
+while index < 1:
+	print("Hello, brad")
+```
