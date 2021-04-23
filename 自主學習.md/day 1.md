@@ -2,17 +2,12 @@
 
 
 ## 1.print (" ") 印出
-
 ```
 print(" ") 就是列印出什麼東西
 Ex: print("Hello world ! ")
 A: Hello world ! 
 ```
-
-## 2.Strings 就是字串
-
-
-## 3.\n 換行
+## 2.\n 換行
 ```
 \n 就是換行的意思
 Ex: print("Hello world ! \nHello world ! ")
@@ -20,7 +15,7 @@ A: Hello world !
    Hello world !
 輸入\n就會換去下一行
 ```
-## 4.input (" ")  也是印出
+## 3.input (" ")  也是印出
 ```
 input 也是印出的一種，但是他是可以讓使用者輸入訊息在印出
 Ex: input("what is your name?") 當我輸入我的名字ex: brad
@@ -29,7 +24,7 @@ A:就會印出 what is your name?brad
 A:what your name ? brad     input的會先執行
 Hello brad                  後面print才會執行
 ```
-## 5.len() 這個函數可以讓電腦計算說你電腦有幾個字串
+## 4.len() 這個函數可以讓電腦計算說你電腦有幾個字串
 ```
 Ex:print(len(input("what your name?") 
 然後我輸入brad
@@ -46,24 +41,24 @@ length = len (name)
 print (lenght)
 答案就會顯示 4 
 ```
-## 6.string 字串
+## 5.string 字串
 ```
 Ex:print("Hello")[0]
 就會顯示Ｈ 0的意思代表第一個字母，1的話就是e以此類推
 ```
-## 7.Integer 整數
+## 6.Integer 整數
 ```
 不管是正還是負都稱為整數 通常我們都用Int
 ```
-## 8.Float 浮點數
+## 7.Float 浮點數
 ```
 Ex:3.14159 就是浮點數，小數點的意思
 ```
-## 9.Boolean 布林值
+## 8.Boolean 布林值
 ```
 就是True 和Flase
 ```
-## 10.type 解釋
+## 9.type 解釋
 ```
 type 就是解釋說這個字串是什麼類型
 Ex: a = 123 print(type(a)) 
