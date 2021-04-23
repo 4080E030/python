@@ -46,6 +46,35 @@ length = len (name)
 print (lenght)
 答案就會顯示 4 
 ```
+## 6.string 字串
+```
+Ex:print("Hello")[0]
+就會顯示Ｈ 0的意思代表第一個字母，1的話就是e以此類推
+```
+## 7.Integer 整數
+```
+不管是正還是負都稱為整數 通常我們都用Int
+```
+## 8.Float 浮點數
+```
+Ex:3.14159 就是浮點數，小數點的意思
+```
+## 9.Boolean 布林值
+```
+就是True 和Flase
+```
+## 10.type 解釋
+```
+type 就是解釋說這個字串是什麼類型
+Ex: a = 123 print(type(a)) 
+答案就會跑出 'int'因為這是整數所以會顯示這樣
+```
+## 其他內容
+```
+如果print (70+float(100.5)) = 170.5
+那如果 print(str(70)+str(100)) = 70100
+兩個要注意
+```
 ## 額外測驗 1
 ```
 如果有兩個數字 當我們輸入兩個數值的時候答案給出來的是兩個相反
@@ -73,4 +102,16 @@ what name of city you grew up in? (你在哪個城市長大的）
 what your pet's name ? (你的寵物叫什麼？）
 A:brad
 Your Band name could be taiwan brad （你的樂團名字將會是 taiwan brad )
+```
+## 答案
+```
+print ("Hello welcome to the bland name gerator!") (先印出你好歡迎來到樂團名稱製造器)
+country = input("what's name of city you grew up in? \n")   (城市 = 讓使用者可以輸入你在哪裡生長的)
+pet = input("what's your pet name?\n") (再來輸入寵物 你的寵物名字)
+print ("your band name could be " + country + " " + pet  ) （最後印出你的樂團名稱應該會叫 使用者輸入的 城市名和寵物名 )
+```
+### 錯誤的問題
+```
+IndentationError : unexpected indet 這個是縮進錯誤
+SyntaxError : EOL while scanning string literal 這個是語法錯誤
 ```
