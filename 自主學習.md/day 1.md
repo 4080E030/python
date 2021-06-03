@@ -8,7 +8,7 @@ Ex: print("Hello world ! ")
 A: Hello world ! 
 ```
 ## 2.\n 換行
-```
+```py
 \n 就是換行的意思
 Ex: print("Hello world ! \nHello world ! ")
 A: Hello world ! 
@@ -16,7 +16,7 @@ A: Hello world !
 輸入\n就會換去下一行
 ```
 ## 3.input (" ")  也是印出
-```
+```py
 input 也是印出的一種，但是他是可以讓使用者輸入訊息在印出
 Ex: input("what is your name?") 當我輸入我的名字ex: brad
 A:就會印出 what is your name?brad
@@ -25,7 +25,7 @@ A:what your name ? brad     input的會先執行
 Hello brad                  後面print才會執行
 ```
 ## 4.len() 這個函數可以讓電腦計算說你電腦有幾個字串
-```
+```py
 Ex:print(len(input("what your name?") 
 然後我輸入brad
 他的答案就會出現 4 因為brad 是4個字母
@@ -34,7 +34,7 @@ Ex:print(len(input("what your name?")
 最後print 就印出len 就是四個字串
 ```
 
-```
+```py
 根據上提如果程式碼長點可以用代號來取代
 Ex:name = input("what your name?")
 length = len (name)
@@ -42,7 +42,7 @@ print (lenght)
 答案就會顯示 4 
 ```
 ## 5.string 字串
-```
+```py
 Ex:print("Hello")[0]
 就會顯示Ｈ 0的意思代表第一個字母，1的話就是e以此類推
 ```
@@ -59,13 +59,13 @@ Ex:3.14159 就是浮點數，小數點的意思
 就是True 和Flase
 ```
 ## 9.type 解釋
-```
+```py
 type 就是解釋說這個字串是什麼類型
 Ex: a = 123 print(type(a)) 
 答案就會跑出 'int'因為這是整數所以會顯示這樣
 ```
 ## 其他內容
-```
+```py
 如果print (70+float(100.5)) = 170.5
 那如果 print(str(70)+str(100)) = 70100
 兩個要注意
@@ -79,7 +79,7 @@ A:  a:15 b:12
 該如何做到？
 ```
 ## 答案
-```
+```py
 a = input ("a :") 
 b = input ("b :")
 c = a
@@ -99,7 +99,7 @@ A:brad
 Your Band name could be taiwan brad （你的樂團名字將會是 taiwan brad )
 ```
 ## 答案
-```
+```py
 print ("Hello welcome to the bland name gerator!") (先印出你好歡迎來到樂團名稱製造器)
 country = input("what's name of city you grew up in? \n")   (城市 = 讓使用者可以輸入你在哪裡生長的)
 pet = input("what's your pet name?\n") (再來輸入寵物 你的寵物名字)
