@@ -6,7 +6,7 @@
 print(" ") 就是列印出什麼東西
 Ex: print("Hello world ! ")
 A: Hello world !
-`
+```
 ## 2.\n 換行
 ```py
 \n 就是換行的意思
