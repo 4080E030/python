@@ -2,7 +2,7 @@
 
 
 ## 1.print (" ") 印出
-`
+`py
 print(" ") 就是列印出什麼東西
 Ex: print("Hello world ! ")
 A: Hello world !
